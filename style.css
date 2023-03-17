@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color:skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    width: fit-content;
+    background-color: white;
+    padding: 50px;
+
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+
+.heading{
+    color: blue;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 5px 5px 10px;
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: pink;
+    margin: 15px;
+    border-radius: 4px;
+
+    cursor: pointer;
+    
+}
